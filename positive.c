@@ -6,14 +6,18 @@ printf("enter the no:");
 scanf("%d",&n);
 if(n==0)
 {
-printf("Zero");
+printf("Zero\n");
 }
 else if(n>=1)
 {
-printf("Positive");
+printf("Positive\n");
 }
-else
+else if(n<0)
 {
-printf("Negative");
+printf("Negative\n");
 }
+  else
+  {
+    printf("Invalid Input\n");
+  }
 }
